@@ -1,0 +1,88 @@
+// exercicio 1
+
+// const objeto = {
+//     NomeDoFilme: "Oppenheimer",
+//     AnoDeLançamento: 2023,
+//     Elenco: ["Cillian Murphy "," Florence Pugh ", " Robert Downey Jr ", " Emily Blunt ", " Rami Malek ", " Jack Quaid "," Matt Damon ", " Gen. Leslie Groves "," Devon Bostick ", " etc"],
+//     let: prompt("voce viu o filme Oppenheimer")
+// };
+
+// console.log(objeto.NomeDoFilme)
+// console.log(objeto.AnoDeLançamento)
+// console.log(objeto['Elenco'])
+// console.log(objeto['let'])
+
+// exercicio 2
+
+// const objeto = {
+//     Nome:prompt("qual o seu nome "),
+//     Idade:Number(prompt("qual a sua idade")),
+//     Musica:prompt("qual o seu genero musical preferido")
+// };
+
+// console.log("o nome dele(a) é "+ objeto.Nome + " ele(a) tem " + objeto.Idade + " anos e gosta muito de " + objeto.Musica);
+
+// exercicio 3
+
+// const objeto = {
+//     NomeDoFilme: "Oppenheimer",
+//     AnoDeLançamento: 2023,
+//     Elenco: ["Cillian Murphy "," Florence Pugh ", " Robert Downey Jr "],
+//     let: prompt("voce viu o filme Oppenheimer"),
+//     personagens:["J.Robert Oppenheimer","Jean Tatlock", "Lewis Strauss"]
+// };
+
+// console.log(objeto.Elenco[0], objeto.personagens[0], objeto.Elenco[1], objeto.personagens[1], objeto.Elenco[2], objeto.personagens[2])
+
+// objeto.Elenco[0] = "Xuxa"
+
+// console.log(objeto.Elenco[0], objeto.personagens[0], objeto.Elenco[1], objeto.personagens[1], objeto.Elenco[2], objeto.personagens[2])
+
+// ==========================================================================================================================================
+
+// const usuario = {
+//     nome:"prof",
+//     idade:25,
+//     email: "asdadsad@gmail.com",
+//     cidade:"Sao paulo"
+// };
+
+// const outroUsuario = {
+//     ...usuario,
+//     nome:"Joao",
+//     idade:28
+// };
+
+// console.log(usuario)
+// console.log(outroUsuario)
+
+// const listaDeNomes = ["maria", "Gabriel", "joao"]
+// const copiaListaDeNomes = [...listaDeNomes]
+
+// console.log(copiaListaDeNomes)
+// =========================================================================================================================================
+
+// exercicio 4
+
+// const objeto = {
+//     Nome:prompt("qual o seu nome "),
+//     Idade:Number(prompt("qual a sua idade")),
+//     Musica:prompt("qual o seu genero musical preferido")
+// };
+
+// function algumaCoisa() {
+//     const coisa = {
+//         ...objeto,
+//         comidas:["pizza", "haburguer", "Xis"],
+//         amigo: {
+//             NomeDoAmigo:prompt("fale o nome do seu amigo"),
+//             IdadeDoAmigo:prompt("fale a idade do seu amigo")
+//         }
+//     };
+
+//     return("O nome da pessoa é " + objeto.Nome + " e suas comidas preferidas são " + coisa.comidas[0] + " , " + coisa.comidas[1] + " e " + coisa.comidas[2] + " seu melhor amigo se chama " + coisa.amigo.NomeDoAmigo + " e tem " + coisa.amigo.IdadeDoAmigo + " anos")
+// };
+
+// const MeuAmigo = algumaCoisa()
+
+// console.log(MeuAmigo)
